@@ -1,0 +1,2 @@
+chromosome,best_f1
+"{'learning_rate': 0.01198, 'batch_size': 32, 'dropout_rate': 0.33123, 'num_hidden_layers': 1, 'hidden_sizes': [191], 'activations': ['relu'], 'optimizer': 'sgd'}",0.3578295931140838

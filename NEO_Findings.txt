@@ -1,0 +1,39 @@
+Supplementary Analysis Summary – NEO Results (MNIST & CIFAR-10)
+================================================================
+
+This file presents key observations from the performance of the Neuroevolutionary Optimization (NEO) framework
+compared to traditional hyperparameter tuning techniques (Grid Search and Random Search) on MNIST and CIFAR-10 datasets.
+
+---------------------------------------------------------------
+
+1. NEO Achieves Highest F1-Score
+-------------------------------
+- On CIFAR-10, NEO achieved the highest F1-score among all methods.
+- On MNIST, NEO also led in F1-score based on generation-wise performance logs.
+- This demonstrates the model’s capability to balance precision and recall.
+
+2. Random Search Outperforms Grid Search
+----------------------------------------
+- Random Search consistently produced better accuracy, precision, recall, and F1-score than Grid Search.
+- Shows the inefficiency of exhaustive grid-based tuning for high-dimensional search spaces.
+
+3. Convergence Stability in NEO
+-------------------------------
+- NEO showed stable convergence with gradual improvement in F1-score across generations.
+- Indicates successful evolutionary search and effective selection-pressure-guided optimization.
+
+4. Insights from Ablation Studies
+---------------------------------
+- Mutation Rate: Rates between 0.1 and 0.2 yield optimal exploration.
+- Population Size: Larger populations improved solution quality but required more computation time.
+- Evaluation Epochs: Increasing training epochs during fitness evaluation improved fidelity at higher compute cost.
+
+5. Summary Observation
+----------------------
+- NEO significantly outperforms classical tuning methods in optimizing classification performance.
+- It is highly suitable for tasks where differentiability or gradients are unreliable or expensive to compute.
+
+---------------------------------------------------------------
+Prepared as part of the supplementary material for:
+"Neuroevolutionary Optimization: A Genetic Algorithm-Based Framework for Neural Network Training"
+(NeurIPS 2025 submission)

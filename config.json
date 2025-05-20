@@ -1,0 +1,29 @@
+{
+    "dataset": "cifar10",
+    "population_size": 20,
+    "generations": 50,
+    "tournament_size": 3,
+    "mutation_rate": 0.1,
+    "epochs_per_individual": 5,
+    "batch_size": 64,
+    "fitness_metric": "f1_score",
+    "architecture": {
+        "min_layers": 2,
+        "max_layers": 4,
+        "min_neurons": 32,
+        "max_neurons": 256,
+        "activation_functions": [
+            "relu",
+            "tanh",
+            "sigmoid"
+        ]
+    },
+    "optimizer": "adam",
+    "learning_rate_range": [
+        0.0001,
+        0.01
+    ],
+    "log_path": "results/neo_log.csv",
+    "result_path": "results/neo_best.csv",
+    "plot_path": "results/plots"
+}

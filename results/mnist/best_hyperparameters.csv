@@ -1,0 +1,5 @@
+method,hyperparameters
+NEOGenetic,"{'learning_rate': 0.09779, 'batch_size': 32, 'dropout_rate': 0.24174, 'num_hidden_layers': 3, 'hidden_sizes': [154, 196], 'activations': ['relu', 'relu'], 'optimizer': 'sgd'}"
+GridSearch,"{'activations': ['relu', 'relu'], 'batch_size': 32, 'dropout_rate': 0.2, 'hidden_sizes': [256, 128], 'learning_rate': 0.001, 'optimizer': 'adam'}"
+RandomSearch,"{'optimizer': 'adam', 'learning_rate': 0.001, 'hidden_sizes': [256, 128], 'dropout_rate': 0.2, 'batch_size': 32, 'activations': ['tanh', 'tanh']}"
+DefaultMLP,"{'learning_rate': 0.001, 'batch_size': 64, 'dropout_rate': 0.2, 'num_hidden_layers': 1, 'hidden_sizes': [128], 'activations': ['relu'], 'optimizer': 'adam'}"

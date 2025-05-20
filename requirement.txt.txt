@@ -1,0 +1,25 @@
+# NEO Project - Requirements for Neuroevolutionary Optimization
+# Python 3.8+ is recommended
+
+# Core scientific and ML libraries
+numpy==1.24.3             # Efficient numerical operations
+pandas==1.5.3             # Data manipulation and CSV handling
+scikit-learn==1.2.2       # ML metrics (accuracy, F1-score, etc.)
+
+# Deep learning framework
+torch==1.13.1             # PyTorch for building and training neural networks
+
+# Visualization tools
+matplotlib==3.7.1         # Line plots, convergence curves
+
+# Logging and progress display
+tqdm==4.65.0              # Progress bars for GA generations
+
+# Optional (for extended plots or notebooks)
+# seaborn==0.12.2         # Enhanced statistical plotting
+# jupyter==1.0.0          # Notebook-based development
+
+# Installation
+# --------------------------
+# Run the following command after setting up a virtual environment:
+# pip install -r requirements.txt
